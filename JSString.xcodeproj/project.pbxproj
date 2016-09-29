@@ -13,6 +13,7 @@
 		E1FEFB221D9CF45E008A77FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FEFB211D9CF45E008A77FC /* Assets.xcassets */; };
 		E1FEFB251D9CF45E008A77FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FEFB231D9CF45E008A77FC /* LaunchScreen.storyboard */; };
 		E1FEFB301D9CF45E008A77FC /* JSStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FEFB2F1D9CF45E008A77FC /* JSStringTests.swift */; };
+		E1FEFB3B1D9CF4A4008A77FC /* JSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FEFB3A1D9CF4A4008A77FC /* JSString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E1FEFB2B1D9CF45E008A77FC /* JSStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FEFB2F1D9CF45E008A77FC /* JSStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSStringTests.swift; sourceTree = "<group>"; };
 		E1FEFB311D9CF45E008A77FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FEFB3A1D9CF4A4008A77FC /* JSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E1FEFB191D9CF45E008A77FC /* JSString */ = {
 			isa = PBXGroup;
 			children = (
+				E1FEFB3A1D9CF4A4008A77FC /* JSString.swift */,
 				E1FEFB1A1D9CF45E008A77FC /* AppDelegate.swift */,
 				E1FEFB1C1D9CF45E008A77FC /* ViewController.swift */,
 				E1FEFB1E1D9CF45E008A77FC /* Main.storyboard */,
@@ -146,7 +149,6 @@
 				TargetAttributes = {
 					E1FEFB161D9CF45E008A77FC = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QWFDFURH3H;
 						ProvisioningStyle = Automatic;
 					};
 					E1FEFB2A1D9CF45E008A77FC = {
@@ -201,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FEFB3B1D9CF4A4008A77FC /* JSString.swift in Sources */,
 				E1FEFB1D1D9CF45E008A77FC /* ViewController.swift in Sources */,
 				E1FEFB1B1D9CF45E008A77FC /* AppDelegate.swift in Sources */,
 			);
@@ -339,7 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QWFDFURH3H;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JSString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ODOV.JSString;
@@ -352,7 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QWFDFURH3H;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JSString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ODOV.JSString;

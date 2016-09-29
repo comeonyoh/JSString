@@ -3,7 +3,7 @@
 //  JSStringTests
 //
 //  Created by KimJungSu on 2016. 9. 29..
-//  Copyright © 2016년 ODOV. All rights reserved.
+//  Copyright © 2016 ODOV. All rights reserved.
 //
 
 import XCTest
@@ -20,17 +20,28 @@ class JSStringTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+    func testStringLength() {
+        
+        let str = "Welcome to Korea"
+        
+        XCTAssertEqual(str.length(), 16)
+        
+        let emptyStr = ""
+        
+        XCTAssertEqual(emptyStr.length(), 0)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+
+    func testSubstring() {
+        
+        let str = "Hello Tiger"
+
+        XCTAssertEqual(str.substring(withRange: JSRange.init(start: 0, length: 5)), "Hello")
+        XCTAssertEqual(str.substring(withRange: JSRange.init(start: 0, length: 5)).length(), 5)
+        
+        XCTAssertEqual(str.substring(5), "Hello")
+        XCTAssertEqual(str.substring(start: 6), "Tiger")
+        
     }
     
 }
