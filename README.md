@@ -1,6 +1,6 @@
 # JSString
 
-### easy usage of Swift String method like Objective-C
+### easy use about Swift String`s method like Objective-C
 
 
 *version 0.0.1*
